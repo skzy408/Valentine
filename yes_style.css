@@ -3,21 +3,40 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(189, 225, 122);
+    background-color: rgb(244, 208, 215);
 }
 
 .header_text {
-    font-family: 'Nunito';
-    font-size: 50px;
+    font-family: "Pangolin", serif;
+    font-size: 60px;
     font-weight: bold;
     color: white;
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
+}
+
+.gif_container img {
+    width: 300px;
+    height: auto;
+    display: block;
 }
 
 .gif_container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sub_text {
+    font-family: "Pangolin", serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background: url("media/4A5.gif") no-repeat center center fixed;
+    background-size: cover;
 }
